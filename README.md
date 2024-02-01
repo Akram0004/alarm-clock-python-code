@@ -1,34 +1,51 @@
-# alarm-clock-python
 
-alarm-clock-python-code
-Create an Alarm Clock in Python with GUI
-There is no other way to learn something than to implement it practically. So we are here with another interesting project on python.
 
-This time, you will learn how to create a simple alarm clock with python and Tkinter.
+# Tkinter Alarm Clock
 
-Python alarm clock is a gui application, which can be used on a computer to set an alarm. Although it’s a simple project for beginners, but it’s interesting to implement various functionalities.
+A simple alarm clock application built using Tkinter, a standard GUI toolkit for Python.
 
-# Prerequisites
-The prerequisites are: basic concepts of Python and Tkinter
+## Features
 
-To install the libraries, you can use pip installer from the cmd/Terminal:
+- Set alarms for any date and time.
+- Edit and delete existing alarms.
+- Snooze alarms for a specified duration.
+- Sleek and user-friendly interface.
+- Sound notification for alarms.
 
----> pip install tkinter
+## Requirements
 
-# Functions Used
-Setalarm: It sets an alarm by calling alarmClock method by passing the alarm time as argument(if the user has entered a correct and non-empty time).
+- Python 3.x
+- Tkinter library (usually comes pre-installed with Python)
 
-alarmclock: This is the most important method because it performs the following tasks:
+## Installation
 
-a. It stores the current time in time_now in specified format (“%H:%M:%S”)
+1. Clone the repository to your local machine:
 
-b. It also checks if current time matches the alarm time. As soon as time matches it displays a wake-up message and plays the alarm song using pygame and mixer. And if doesn’t match the time_now it continues step b after sleeping for one second.
+    ```
+    git clone https://github.com/your-username/tkinter-alarm-clock.git
+    ```
 
-# Variables Used:
-1.root: the main GUI window.
+2. Navigate to the project directory:
 
-2.Hrs, Mins, Secs: They are tkinter string variables that store the hour’s, minute’s and second’s value entered by the user before setting an alarm.
+    ```
+    cd tkinter-alarm-clock
+    ```
 
-3.Greet: It is a label to display the message” Take a short nap!”.
+3. Run the `main.py` file:
 
-4.We also have hrbtn, minbtn , secbtn to take respective values from the user.
+    ```
+    python main.py
+    ```
+
+## Usage
+
+1. Launch the application by running the `main.py` file.
+2. Enter the desired date and time for the alarm.
+3. Click on the "Set Alarm" button to set the alarm.
+4. Alarms will be displayed in the listbox.
+5. You can edit or delete alarms using the provided buttons.
+6. To snooze an alarm, select it from the list and click on the "Snooze Alarm" button.
+
+## Screenshots
+
+![Screenshot 2024-02-01 144321](https://github.com/Akram0004/alarm-clock-python-code/assets/125110989/a9a0bc81-e6bb-42d5-a47a-b33a21e3f6dc)
